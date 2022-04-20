@@ -24,7 +24,7 @@ class Editorial(models.Model):
     pais_origen = models.CharField(max_length=40)
     id = models.AutoField(primary_key=True)
 
-class Avatar(models.Model):
+#class Avatar(models.Model):
 
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    imagen = models.ImageField(upload_to = 'avatares', null = True, blank = True)
+ #   user = models.ForeignKey(User, on_delete=models.CASCADE)
+  #  imagen = models.ImageField(upload_to = 'avatares', null = True, blank = True)
